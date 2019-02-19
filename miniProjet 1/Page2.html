@@ -1,0 +1,78 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="Style.css" type="text/css"/>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+<title>Gestion des Articles</title>
+
+</head>
+<body>
+  <header class="heading">Ajouter un Article</header><hr>
+
+<div class="container" >
+  <form action="" method="">
+                              <div class="form-group row">
+                                  <label for="ref" class="col-md-4 col-form-label text-md-right" id="label">References:</label>
+                                  <div class="col-md-6">
+                                      <input type="text"  class="form-control" name="ref" required autofocus>
+                                  </div>
+                              </div>
+
+                              <div class="form-group row">
+                                  <label for="name" class="col-md-4 col-form-label text-md-right" id="label">Nom:</label>
+                                  <div class="col-md-6">
+                                      <input type="text" class="form-control" name="nom" required>
+                                  </div>
+                              </div>
+                            <div class="form-group row">
+                                <label for="prix" class="col-md-4 col-form-label text-md-right" id="label">Prix Unitaire:</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" name="prix" required autofocus>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="qte" class="col-md-4 col-form-label text-md-right"id="label">Quantite:</label>
+                                <div class="col-md-6">
+                                    <input type="text" class="form-control" name="Qte" required>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="date" class="col-md-4 col-form-label text-md-right" id="label">Date d'insertion:</label>
+                                <div class="col-md-6">
+                                    <input type="date" class="form-control" name="date" required>
+                                </div>
+                            </div>
+                          </form>
+
+<div class="button">
+<button type="button" class="btn btn-success" id="ajt">Ajouter</button>
+<a href="Page1.html"type="button" class="btn btn-success" id="rtr">Retour</a>
+</div>
+<div class="cnt">
+  <table class="table table-hover" id="worked">
+                <thead>
+                    <tr>
+                        <th>References</th>
+                        <th>Nom</th>
+                        <th>Prix Unitaire</th>
+                        <th>Quantite</th>
+                        <th>Date</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                  <tr data-index="0">
+                    <td class="text-left" style="">r123</td>
+                    <td class="text-left" style="">AAA</td>
+                    <td class="text-left" style="">123</td>
+                    <td class="text-left" style="">45</td>
+                    <td class="text-left" style="">12/12/2018</td>
+                  </tr>
+</table>
+</div>
+</body>
+</html>
